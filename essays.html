@@ -11,7 +11,8 @@
         p {
             font-size: 13px;
             font-weight: 100;
-            color: #323232;
+            color: transparent;
+            opacity: #111;
             line-height: 85%;
             letter-spacing: 1.33px;
             text-align: center;
@@ -21,10 +22,15 @@
             transition-duration: 1.3s;
             -webkit-transition-duration: 1.3s;
         }
-        p:hover {
-            color: white;
-            cursor: pointer;
+        .linqs {
+            opacity: 0;
+            transition-duration: 1.3s;
+            -webkit-transition-duration: 1.3s;
         }
+        .header:hover .linqs {
+            opacity: 1;
+        }
+
         a {
             text-decoration: none;
         }
@@ -161,22 +167,23 @@
 
     <div class="header">
         <a href="/index.html">
-        <img src="/zft.png" alt="z" />
-    </a>
-        <p> 
-            <a href="/story.html"> musings </a>
-            <br>
-            <a href="/vispro.html"> visual projects </a>
-            <br>
-            <a href="/texts.html"> selected texts </a>
-            <br>
-            <a href="https://github.com/zchickenwang" target="_blank"> technical apps </a>
-            <br>
-            <a href="/contact.html"> contact </a>
-        </p>
+            <img src="/zft.png" alt="z" />
+        </a>
+        <div class="linqs">
+            <p> 
+                <a href="/story.html"> musings </a>
+                <br>
+                <a href="/vispro.html"> visual projects </a>
+                <br>
+                <a href="/texts.html"> selected texts </a>
+                <br>
+                <a href="https://github.com/zchickenwang" target="_blank"> technical apps </a>
+                <br>
+                <a href="/contact.html"> contact </a>
+            </p>
         </div>
     </div>
-    </div>
+
 
     <div class="titre" id="love">
         <a href="/essays/love.html">
