@@ -12,7 +12,6 @@
         p {
             font-size: 13px;
             font-weight: 100;
-            opacity: 0;
             color: black;
             line-height: 90%;
             letter-spacing: 1.33px;
@@ -28,6 +27,7 @@
             -webkit-transition-duration: 1.3s;
         }
         .linqs a {
+            opacity: 0;
             text-decoration: none;
             transition-duration: 0s;
             -webkit-transition-duration: 0s;
@@ -35,7 +35,7 @@
         .linqs a:hover {
             font-weight: 300;
         }
-        .header:hover .linqs p {
+        .header:hover .linqs a{
             opacity: 1;
         }
 
