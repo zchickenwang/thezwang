@@ -12,28 +12,48 @@
         }
 
         p {
-            font-family: BrandonGrotesque;
-            text-transform: uppercase;
-            text-align: center;
-            font-size: 11px;
-            letter-spacing: 1.33px;
-            line-height: 110%;
-            font-style: normal;
-            font-weight: 200;
+            font-size: 13px;
+            font-weight: 100;
             color: black;
-            margin: 5px;
+            line-height: 90%;
+            letter-spacing: 1.33px;
+            text-align: center;
+            font-family: BrandonGrotesque, Inconsolata;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition-duration: 1.3s;
+            -webkit-transition-duration: 1.3s;
+        }
+        .linqs a {
+            opacity: 0;
+            text-decoration: none;
+            transition-duration: 1.3s;
+            -webkit-transition-duration: 1.3s;
+        }
+        .linqs a:hover {
+            font-weight: 300;
+        }
+        .header:hover .linqs a{
+            opacity: 1;
         }
 
         .header {
-            width: 300px;
-            margin: 121px auto 181px;
+            width: 500px;
+            margin: 10px auto 100px;
             text-align: center;
             background: transparent;
         }
         .header img {
-            width: 100px;
+            width: 50px;
             margin: 0 auto;
         }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        
 
 
     </style>
@@ -43,8 +63,21 @@
 <body>
     <div class="header">
         <a href="/index.html">
-            <img src="/zft.png" />
+            <img src="/zft.png" alt="z" />
         </a>
+        <div class="linqs">
+            <p> 
+                <a href="/story.html"> musings </a>
+                <br>
+                <a href="/vispro.html" style="opacity:1 !important;"> visual projects </a>
+                <br>
+                <a href="/texts.html"> selected texts </a>
+                <br>
+                <a href="https://github.com/zchickenwang" target="_blank"> technical apps </a>
+                <br>
+                <a href="/contact.html"> contact </a>
+            </p>
+        </div>
     </div>
 
     
