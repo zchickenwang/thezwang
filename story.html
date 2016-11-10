@@ -13,7 +13,7 @@
 
         p {
             font-size: 13px;
-            font-weight: 100;
+            font-weight: 200;
             color: black;
             line-height: 90%;
             letter-spacing: 1.33px;
@@ -24,16 +24,20 @@
             transition-duration: 1.3s;
             -webkit-transition-duration: 1.3s;
         }
-        .linqs a {
+        .linqs {
             opacity: 0;
-            text-decoration: none;
             transition-duration: 1.3s;
             -webkit-transition-duration: 1.3s;
+        }
+        .linqs a {
+            transition-duration: 0s;
+            -webkit-transition-duration: 0s;
+            text-decoration: none;
         }
         .linqs a:hover {
             font-weight: 300;
         }
-        .header:hover .linqs a{
+        .header:hover .linqs {
             opacity: 1;
         }
 
@@ -67,7 +71,7 @@
         </a>
         <div class="linqs">
             <p> 
-                <span style="color: #ccc; font-weight: 300;"> musings </span>
+                <span style="color: #aaa; font-weight: 300;"> musings </span>
                 <br>
                 <a href="/vispro.html"> visual projects </a>
                 <br>
