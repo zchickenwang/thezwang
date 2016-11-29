@@ -1,4 +1,4 @@
 # thezwang
-z's website,
+z's website
 <br />
 static pages with custom CSS
